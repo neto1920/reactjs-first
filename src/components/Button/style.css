@@ -1,0 +1,19 @@
+.more-posts {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #09dbca;   
+    border-color: #09dbca;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.more-posts:hover{    
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background: #888;
+  cursor: not-allowed;
+  border: #888;  
+}
